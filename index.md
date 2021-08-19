@@ -1,42 +1,24 @@
-## Welcome to my GSoC 2021 Report
+---
+lang: en-GB
+toc: true
+---
+# Fixing IHaskell-Widgets
+<figure class="video_container">
+  <video autoplay loop muted playsinline>
+    <source src="{{site.baseurl}}/assets/demos/bincounter.webm" type="video/webm">
+    <source src="{{site.baseurl}}/assets/demos/bincounter.mp4" type="video/mp4">
+  </video>
+</figure>
 
-You can use the [editor on GitHub](https://github.com/daviddavo/gsoc21/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Show me the code!
+The main PR with almost all the commits is [#1242: Updating IHaskell-widgets](https://github.com/gibiansky/IHaskell/pull/1242),
+but you can find every PR I have made to the project before finishing GSoC [clicking here](https://github.com/gibiansky/IHaskell/pulls?q=is%3Apr+author%3Adaviddavo+created%3A%3C2021-08-23+).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Demo
 
-### Markdown
+## Technical difficulties
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daviddavo/gsoc21/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-## Things to do:
+## Things to do
 
 If you want to continue or contribute to this project, here are some things that
 are still to be done as of today, 16th of August of 2021.
