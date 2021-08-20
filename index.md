@@ -16,9 +16,12 @@ The main PR with almost all the commits is [#1242: Updating IHaskell-widgets](ht
 but you can find every PR I have made to the project before finishing GSoC [clicking here](https://github.com/gibiansky/IHaskell/pulls?q=is%3Apr+author%3Adaviddavo+created%3A%3C2021-08-23+).
 
 ## I want to use it
-You can test and play a bit with it and run the sample notebooks using this [binder link]({{site.binder.binder_url}}). Using binder is fine if you only want to try it a bit without downloading and installing, but it gets a bit slow when you want to do more complex things.
+You can test and play a bit with it and run the sample notebooks using this [binder link]({{site.binder.binder_url}}). Warning: it may take a while to load.
 
-You can follow the install guide at the project's [README](https://github.com/gibiansky/IHaskell#readme).
+I strongly recommend you to start with the *Introduction to Widgets* notebook,
+and then go try the other ones.
+
+If you want to install it on your local machine, you can follow the installation guide at the project's [README](https://github.com/gibiansky/IHaskell#readme).
 
 ## Technical difficulties
 Here I'll explain some solved and unsolved problems that I stumbled upon while working on the project
