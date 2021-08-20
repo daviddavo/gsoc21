@@ -43,7 +43,7 @@
 
         <div id="table-of-contents">
           <h3>Table of Contents:</h3>
-          {% include toc.html html=content %}
+          {% include toc.html html=content h_min=2 %}
         </div>
       </header>
       <section>
@@ -52,10 +52,8 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        Created by <a href="{{ site.personal_site }}">{{site.fullname}}</a>
+        <p><small>Hosted on GitHub Pages &mdash; Theme modified from <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
