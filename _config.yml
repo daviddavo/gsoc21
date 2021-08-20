@@ -40,6 +40,9 @@ binder:
 docker:
   docker_url: https://hub.docker.com/r/gibiansky/ihaskell
 
+gsoc:
+  project_url: https://summerofcode.withgoogle.com/projects/#5497023849037824
+
 # Build settings
 show_downloads: true
 theme: jekyll-theme-minimal
