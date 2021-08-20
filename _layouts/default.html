@@ -43,12 +43,12 @@
 
         <div id="table-of-contents">
           <h3>Table of Contents:</h3>
-          {{ content | toc_only }}
+          {% include toc.html html=content %}
         </div>
       </header>
       <section>
 
-      {{ content | inject_anchors }}
+      {{ content }}
 
       </section>
       <footer>

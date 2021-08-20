@@ -1,22 +1,24 @@
 ---
 ---
-ul#toc, ul#toc ul {
+#table-of-contents {
+  & h3 {
+    margin-bottom: 0.3em;
+  }
+
+  & ul, & ul ul {
     position: relative;
     top: unset!important;
     right: unset!important;
     padding-left: 1.3em;
-}
+  }
 
-#table-of-contents h3 {
-    margin-bottom: 0.3em;
-}
-
-ul#toc {
+  & ul {
     padding-left: 0;
-}
+  }
 
-li.toc-entry {
+  & li {
     list-style-type: none;
+  }
 }
 
 video {
